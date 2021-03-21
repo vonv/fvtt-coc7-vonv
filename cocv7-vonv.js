@@ -13,7 +13,7 @@ Hooks.on('ready', () => {
     // hint: 'SETTINGS.ArtworkMainFontHint',
     scope: 'world',
     config: true,
-    default: 'url(\'./modules/cocv7-vonv/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
+    default: 'url(\'./modules/fvtt-coc7-vonv/mailart-rubberstamp.ttf\') format(\'truetype\')',
     type: String
   });
 
@@ -22,7 +22,7 @@ Hooks.on('ready', () => {
     // hint: 'SETTINGS.ArtworkMainFontHint',
     scope: 'world',
     config: true,
-    default: 'url(\'./modules/cocv7-vonv/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
+    default: 'url(\'./fvtt-coc7-vonv/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
     type: String
   });
 
