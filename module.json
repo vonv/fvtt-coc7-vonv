@@ -1,0 +1,425 @@
+{
+  "name": "cocv7-vonv",
+  "title": "cocv7-vonv",
+  "description": "",
+  "version": "0.7.9.0", 
+  "minimumCoreVersion" : "0.7.5",  
+  "compatibleCoreVersion": "0.8.0",
+  "author": "vonv",
+  "scripts": [
+    "./module/cocv7-vonv.js"
+  ],
+  "styles": [
+    "./styles/cocv7-vonv.css"
+  ],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "fr.json"
+    }
+  ],
+  "url": "https://github.com/vonv/CoC7-FoundryVTT-toc",
+  "manifest": "https://raw.githubusercontent.com/vonv/CoC7-FoundryVTT-toc/main/module.json",
+  "download": "https://github.com/vonv/CoC7-FoundryVTT-toc/archive/main.zip",
+  "dependencies": [
+    {
+      "name": "adventure-import-export",
+      "manifest": "https://raw.githubusercontent.com/cstadther/adventure-import-export/master/module.json"
+    },
+    {
+      "name": "autocomplete-whisper",
+      "manifest": "https://raw.githubusercontent.com/orcnog/autocomplete-whisper/master/module.json"
+    },
+    {
+      "name": "babele",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+    },
+    {
+      "name": "combat-carousel",
+      "manifest": "https://raw.githubusercontent.com/death-save/combat-carousel-public/main/module.json"
+    },
+    {
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+    },
+    {
+      "name": "df-scene-enhance",
+      "manifest":	"https://dragonflagon.cafe/mods/man/df-scene-enhance"
+    },
+    {
+      "name": "dice-calculator",
+      "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json"
+    },
+    {
+      "name": "dice-so-nice",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+    },
+    {
+      "name": "fr-FR",
+      "manifest": "https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr/raw/master/fr-FR/module.json"
+    },
+    {
+      "name": "furnace",
+      "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/master/module.json"
+    },
+    {
+      "name": "journal-thumbnail",
+      "manifest": "https://raw.githubusercontent.com/J-Guenther/foundryvtt-journal-thumbnail/main/module.json"
+    },
+    {
+      "name": "permission_viewer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-permission-viewer/releases/latest/download/module.json"
+    },
+    {
+      "name": "pings",
+      "manifest": "https://gitlab.com/foundry-azzurite/pings/-/jobs/artifacts/master/raw/dist/pings/module.json?job=build"
+    },
+    {
+      "name": "popout",
+      "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json"
+    },
+    {
+        "name": "scene-defaults",
+        "manifest": "https://github.com/BradfordC/FoundryVTT-Scene-Defaults/releases/latest/download/module.json"
+    },
+    {
+      "name": "tweakplaylist",
+      "manifest": "https://raw.githubusercontent.com/trdischat/tweakplaylist/master/module.json"
+    },
+    {
+      "name": "markdown-editor",
+      "manifest": "https://raw.githubusercontent.com/Moerill/fvtt-markdown-editor/master/module.json"
+    },
+    {
+      "name": "one-journal",
+      "manifest": "https://gitlab.com/fvtt-modules-lab/one-journal/-/jobs/artifacts/master/raw/module.json?job=build-module"
+    },
+    {
+      "name": "chat-notifications",
+      "download": "https://github.com/Moerill/fvtt-chat-notifications/releases/download/v1.2.2/v1.2.2.zip"
+    }
+  ],
+  "packs": [
+    {
+    "label": "Tables",
+    "entity": "RollTable",
+    "name": "tables",
+    "path": "packs/tables.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Santé Mentale",
+    "entity": "RollTable",
+    "name": "santé-mentale",
+    "path": "packs/santé-mentale.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Compétences",
+    "entity": "Item",
+    "name": "competences",
+    "path": "packs/competences.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Horreurs traditionnelles",
+    "entity": "Actor",
+    "name": "horreurs-traditionnelles",
+    "path": "packs/horreurs-traditionnelles.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Créatures du mythe",
+    "entity": "Actor",
+    "name": "creatures-du-mythe",
+    "path": "packs/creatures-du-mythe.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Divinités du mythe",
+    "entity": "Actor",
+    "name": "divinites-du-mythe",
+    "path": "packs/divinites-du-mythe.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Faune",
+    "entity": "Actor",
+    "name": "faune",
+    "path": "packs/faune.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Personnages",
+    "entity": "Actor",
+    "name": "personnages",
+    "path": "packs/personnages.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Armes Blanches et de Trait",
+    "entity": "Item",
+    "name": "armes-blanches",
+    "path": "packs/armes-blanches.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Armes Lourdes et explosifs",
+    "entity": "Item",
+    "name": "armes-lourdes",
+    "path": "packs/armes-lourdes.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Armes de poing",
+    "entity": "Item",
+    "name": "armes-poing",
+    "path": "packs/armes-poing.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Fusils",
+    "entity": "Item",
+    "name": "armes-fusils",
+    "path": "packs/armes-fusils.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Mitraillettes et Mitrailleuses",
+    "entity": "Item",
+    "name": "armes-mitraillettes",
+    "path": "packs/armes-mitraillettes.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Sortilèges d'Appel et Congédiement",
+    "entity": "Item",
+    "name": "sortilèges-appel",
+    "path": "packs/sortileges-appel.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Sortilèges de Contact",
+    "entity": "Item",
+    "name": "sortilèges-contact",
+    "path": "packs/sortileges-contact.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Sortilèges d'Invocation et Control",
+    "entity": "Item",
+    "name": "sortilèges-invocation",
+    "path": "packs/sortileges-invocation.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Sortilèges de Portail",
+    "entity": "Item",
+    "name": "sortilèges-portail",
+    "path": "packs/sortileges-portail.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Sortilèges de Combat",
+    "entity": "Item",
+    "name": "sortilèges-combat",
+    "path": "packs/sortileges-combat.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Sortilèges d'Enchantement",
+    "entity": "Item",
+    "name": "sortilèges-enchantement",
+    "path": "packs/sortileges-enchantement.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Occupations",
+    "entity": "Item",
+    "name": "occupations",
+    "path": "packs/occupations.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Ouvrages du Mythe",
+    "entity": "Item",
+    "name": "ouvrages-mythe",
+    "path": "packs/ouvrages-mythe.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Archetypes Pulp",
+    "entity": "Item",
+    "name": "archetype-pulp",
+    "path": "packs/archetype-pulp.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Talents Pulp",
+    "entity": "Item",
+    "name": "pulp-talents.db",
+    "path": "packs/pulp-talents.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Requêtes de tests",
+    "entity": "JournalEntry",
+    "name": "requetes-de-tests",
+    "path": "packs/requetes-de-tests.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Achtung Cthulhu Tables",
+    "entity": "RollTable",
+    "name": "achtung--cthulhu-tables",
+    "path": "packs/achtung--cthulhu-tables.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Achtung Cthulhu Démarrage",
+    "entity": "JournalEntry",
+    "name": "achtung--cthulhu-demarrage",
+    "path": "packs/achtung--cthulhu-demarrage.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Personnages Achtung",
+    "entity": "Actor",
+    "name": "personnages-achtung",
+    "path": "packs/personnages-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Compétences Achtung",
+    "entity": "Item",
+    "name": "competences-achtung-",
+    "path": "packs/competences-achtung-.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Occ. civiles Achtung",
+    "entity": "Item",
+    "name": "occ-civiles-achtung",
+    "path": "packs/occ-civiles-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Talents Achtung",
+    "entity": "Item",
+    "name": "talents-achtung",
+    "path": "packs/talents-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Occ. espionnage Achtung",
+    "entity": "Item",
+    "name": "occ-espionnage-achtung",
+    "path": "packs/occ-espionnage-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Occ. militaires Achtung",
+    "entity": "Item",
+    "name": "occ-militaires-achtung",
+    "path": "packs/occ-militaires-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Items Achtung Examples",
+    "entity": "Item",
+    "name": "items-achtung-examples",
+    "path": "packs/items-achtung-examples.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Armes de contact Achtung",
+    "entity": "Item",
+    "name": "armes-de-contact-achtung",
+    "path": "packs/armes-de-contact-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Grenades et explosifs Achtung",
+    "entity": "Item",
+    "name": "grenades-et-explosifs-achtung",
+    "path": "packs/grenades-et-explosifs-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Armes de poing Achtung",
+    "entity": "Item",
+    "name": "armes-de-poing-achtung",
+    "path": "packs/armes-de-poing-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Fusils Achtung",
+    "entity": "Item",
+    "name": "fusils-achtung",
+    "path": "packs/fusils-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Mitraillettes Achtung",
+    "entity": "Item",
+    "name": "mitraillettes-achtung",
+    "path": "packs/mitraillettes-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Mitrailleuses Achtung",
+    "entity": "Item",
+    "name": "mitrailleuses-achtung",
+    "path": "packs/mitrailleuses-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    },
+    {
+    "label": "Armes lourdes et diverses Achtung",
+    "entity": "Item",
+    "name": "armes-lourdes-et-diverses-achtung",
+    "path": "packs/armes-lourdes-et-diverses-achtung.db",
+    "system": "CoC7",
+    "package": "world"
+    }
+  ]
+}
