@@ -1,16 +1,16 @@
 {
-  "name": "cocv7-vonv",
-  "title": "cocv7-vonv",
+  "name": "fvtt-coc7-vonv",
+  "title": "fvtt-coc7-vonv",
   "description": "",
-  "version": "0.7.9.0", 
+  "version": "0.1", 
   "minimumCoreVersion" : "0.7.5",  
   "compatibleCoreVersion": "0.8.0",
   "author": "vonv",
   "scripts": [
-    "./module/cocv7-vonv.js"
+    "./cocv7-vonv.js"
   ],
   "styles": [
-    "./styles/cocv7-vonv.css"
+    "./cocv7-vonv.css"
   ],
   "languages": [
     {
@@ -19,87 +19,10 @@
       "path": "fr.json"
     }
   ],
-  "url": "https://github.com/vonv/CoC7-FoundryVTT-toc",
-  "manifest": "https://raw.githubusercontent.com/vonv/CoC7-FoundryVTT-toc/main/module.json",
-  "download": "https://github.com/vonv/CoC7-FoundryVTT-toc/archive/main.zip",
-  "dependencies": [
-    {
-      "name": "adventure-import-export",
-      "manifest": "https://raw.githubusercontent.com/cstadther/adventure-import-export/master/module.json"
-    },
-    {
-      "name": "autocomplete-whisper",
-      "manifest": "https://raw.githubusercontent.com/orcnog/autocomplete-whisper/master/module.json"
-    },
-    {
-      "name": "babele",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
-    },
-    {
-      "name": "combat-carousel",
-      "manifest": "https://raw.githubusercontent.com/death-save/combat-carousel-public/main/module.json"
-    },
-    {
-      "name": "compendium-folders",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
-    },
-    {
-      "name": "df-scene-enhance",
-      "manifest":	"https://dragonflagon.cafe/mods/man/df-scene-enhance"
-    },
-    {
-      "name": "dice-calculator",
-      "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/foundry-vtt-dice-calculator/raw/master/module.json"
-    },
-    {
-      "name": "dice-so-nice",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
-    },
-    {
-      "name": "fr-FR",
-      "manifest": "https://gitlab.com/baktov.sugar/foundryvtt-lang-fr-fr/raw/master/fr-FR/module.json"
-    },
-    {
-      "name": "furnace",
-      "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-furnace/master/module.json"
-    },
-    {
-      "name": "journal-thumbnail",
-      "manifest": "https://raw.githubusercontent.com/J-Guenther/foundryvtt-journal-thumbnail/main/module.json"
-    },
-    {
-      "name": "permission_viewer",
-      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-permission-viewer/releases/latest/download/module.json"
-    },
-    {
-      "name": "pings",
-      "manifest": "https://gitlab.com/foundry-azzurite/pings/-/jobs/artifacts/master/raw/dist/pings/module.json?job=build"
-    },
-    {
-      "name": "popout",
-      "manifest": "https://raw.githubusercontent.com/kakaroto/fvtt-module-popout/master/module.json"
-    },
-    {
-        "name": "scene-defaults",
-        "manifest": "https://github.com/BradfordC/FoundryVTT-Scene-Defaults/releases/latest/download/module.json"
-    },
-    {
-      "name": "tweakplaylist",
-      "manifest": "https://raw.githubusercontent.com/trdischat/tweakplaylist/master/module.json"
-    },
-    {
-      "name": "markdown-editor",
-      "manifest": "https://raw.githubusercontent.com/Moerill/fvtt-markdown-editor/master/module.json"
-    },
-    {
-      "name": "one-journal",
-      "manifest": "https://gitlab.com/fvtt-modules-lab/one-journal/-/jobs/artifacts/master/raw/module.json?job=build-module"
-    },
-    {
-      "name": "chat-notifications",
-      "download": "https://github.com/Moerill/fvtt-chat-notifications/releases/download/v1.2.2/v1.2.2.zip"
-    }
-  ],
+  "url": "https://github.com/vonv/fvtt-coc7-vonv",
+  "manifest": "https://raw.githubusercontent.com/vonv/fvtt-coc7-vonv/main/module.json",
+  "download": "https://github.com/vonv/fvtt-coc7-vonv/archive/main.zip",
+  "dependencies": [],
   "packs": [
     {
     "label": "Tables",
